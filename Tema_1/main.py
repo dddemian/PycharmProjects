@@ -1,16 +1,15 @@
-list_1 = [7, 8, 9, 2, 3, 1, 4, 10, 5, 6]
-#          0  1  2  3  4  5  6   7  8  9
-# print(len(list_1))
-print(list_1)
+my_list = [7, 8, 9, 2, 3, 1, 4, 10, 5, 6]
+print('Lista initiala:', my_list)
 
-list_2 = list_1.sort()
-print(list_2)
+my_list.sort()
+print('Lista ordonata ascendent:', my_list)
 
-list_3 = list_1.reverse()
-print(list_3)
+my_list.reverse()
+print('Lista ordonata descendent:', my_list)
 
-list_4 = list_1[1:]
-print(list_4)
-
+my_list.sort()
+print('Lista cu numerele pare:', my_list[1::2])
+print('Lista cu numerele impare:', my_list[0::2])
+print('Lista cu multiplii de 3:', my_list[2::3])
 
 
